@@ -55,3 +55,15 @@ function countVowels(countV){
 }
 console.log(countVowels("Ostad is The Best Platform for Tech Learning"));
 
+
+
+//8. Array of Numbers Count Average
+
+function findAverage(average){
+    if(average.length === 0) return 0;
+    let sum = average.reduce((total, num) => total + num, 0);
+    return Math.floor(sum / average.length);
+}
+
+console.log(findAverage([10, 4, 3, 16, 11, 20]))
+
