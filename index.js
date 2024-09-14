@@ -64,6 +64,5 @@ function findAverage(average){
     let sum = average.reduce((total, num) => total + num, 0);
     return Math.floor(sum / average.length);
 }
-
 console.log(findAverage([10, 4, 3, 16, 11, 20]))
 
